@@ -1,0 +1,6 @@
+@KHanERP_HostAddress = http://localhost:5119
+
+GET {{KHanERP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

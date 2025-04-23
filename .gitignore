@@ -1,0 +1,102 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files.
+
+# Build results
+bin/
+obj/
+out/
+Generated_Code/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.csproj.user
+
+# Visual Studio Code workspace settings
+.vscode/
+.vscode-test/
+
+# Rider project files
+.idea/
+
+# ASP.NET Core secrets
+secrets.json
+**/appsettings.*.json
+!**/appsettings.json
+
+# Logs
+*.log
+Logs/
+
+# Database files
+*.mdf
+*.ldf
+
+# Backup & publish files
+*.bak
+*.bkp
+publish/
+*.publish.xml
+
+# Azure Pipelines
+*.azure-pipelines.yml
+
+# Node modules (if you have front-end assets)
+node_modules/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Coverage and test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# Others
+_ReSharper*/
+*.DotSettings.user
+*.ncrunchproject
+*.ncrunchsolution
+*.localhistory
+*.sdf
+*.cache
+*.dbmdl
+*.pidb
+*.svclog
+*.suo
+*.user
+*.aps
+*.sdf
+*.bak
+*.sqlite
+
+# Docker artifacts
+**/docker-compose.override.yml
+
+# JetBrains Rider / IntelliJ
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Identity migrations
+Migrations/
+
+# Temporary files
+tmp/
+temp/
+*.vsidx
